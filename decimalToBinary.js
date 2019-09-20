@@ -1,5 +1,5 @@
 'use strict';
-exports.module = function decimalToBinary(decimal) {
+module.exports = function decimalToBinary(decimal) {
   let binary = [];
   while(decimal != 0) {
     binary.unshift(decimal % 2);
